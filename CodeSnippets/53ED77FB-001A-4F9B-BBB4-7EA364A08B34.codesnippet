@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LTawakeFromNib</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    [self configurePageView];
+    [self addPageSubViews];
+    [self layoutPageSubviews];
+}
+
+- (void)configurePageView {
+}
+
+- (void)addPageSubViews {
+}
+
+- (void)layoutPageSubviews {
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>53ED77FB-001A-4F9B-BBB4-7EA364A08B34</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>awakeFromNib</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>awakeFromNib</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
