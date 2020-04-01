@@ -9,15 +9,18 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CFTimeInterval startTime = CACurrentMediaTime();
+	<string>CFAbsoluteTime startTime =CFAbsoluteTimeGetCurrent();
+
 &lt;#code here#&gt;
-CFTimeInterval endTime = CACurrentMediaTime();
-CFTimeInterval consumingTime = endTime - startTime;
-NSLog(@"耗时：%@", @(consumingTime));</string>
+
+CFAbsoluteTime linkTime = (CFAbsoluteTimeGetCurrent() - startTime);
+NSLog(@"Linked in %f ms", linkTime *1000.0); </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F03D957F-693E-464B-B5EE-579E045B81C1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>耗时计算</string>
 	<key>IDECodeSnippetUserSnippet</key>
