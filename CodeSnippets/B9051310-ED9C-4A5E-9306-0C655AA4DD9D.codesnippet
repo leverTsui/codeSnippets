@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ltgettersetter</string>
+	<string>ltlazy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//MARK: - getter &amp; setter</string>
+	<string>    lazy var &lt;#code#&gt;: &lt;#code#&gt; = {
+        &lt;#code#&gt;
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>92C305E0-889A-49B8-9EFC-9D8F014522E5</string>
+	<string>B9051310-ED9C-4A5E-9306-0C655AA4DD9D</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>lazy</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>getterSetter</string>
+	<string>lazy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

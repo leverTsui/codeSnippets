@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - life cycle</string>
+	<string>//MARK: - life cycle</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>63CA3A23-39A4-41FF-BF14-CA34CF8DAB9C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>life cycle</string>
 	<key>IDECodeSnippetUserSnippet</key>

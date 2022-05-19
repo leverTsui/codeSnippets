@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - private method</string>
+	<string>//MARK: - private method</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DFE84746-2DFC-4A22-986C-B381924312FC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>private method</string>
 	<key>IDECodeSnippetUserSnippet</key>

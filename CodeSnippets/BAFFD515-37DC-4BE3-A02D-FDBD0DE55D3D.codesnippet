@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - event response</string>
+	<string>//MARK: - event response</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BAFFD515-37DC-4BE3-A02D-FDBD0DE55D3D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>eventResponse</string>
 	<key>IDECodeSnippetUserSnippet</key>

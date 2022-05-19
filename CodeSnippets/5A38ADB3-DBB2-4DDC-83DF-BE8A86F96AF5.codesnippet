@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ltgettersetter</string>
+	<string>ltsnapMaker</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//MARK: - getter &amp; setter</string>
+	<string>        &lt;#code#&gt;.snp.makeConstraints { (maker) in
+            
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>92C305E0-889A-49B8-9EFC-9D8F014522E5</string>
+	<string>5A38ADB3-DBB2-4DDC-83DF-BE8A86F96AF5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>ltsnapMaker</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>getterSetter</string>
+	<string>ltsnapMaker</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

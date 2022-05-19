@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LTButtonOnlyTitle</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private lazy var selectAllButton: UIButton = {
+        var button = UIButton.init(type: .custom)
+        button.isHidden = true
+        button.setTitle("全选", for: .normal)
+        button.setTitle("取消全选", for: .selected)
+        button.setTitleColor(.hex("#2254F4"), for: .normal)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        button.addTarget(self, action:#selector(selectAllButtonClick(_ :)), for:.touchUpInside)
+        return button
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>992F9CAA-B20E-444F-86DB-416F59443E2C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>buttonOnlyTitle</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>buttonOnlyTitle</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

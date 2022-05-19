@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ltButtonOnlyImage</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private lazy var selectButton: UIButton = {
+        var button = UIButton.init(type: .custom)
+        let normalImage: UIImage? = UIImage.init(named: "video_record_batch")
+        let selectImage: UIImage? = UIImage.init(named: "video_record_clear")
+        button.setImage(normalImage, for: .normal)
+        button.setImage(selectImage, for: .selected)
+        button.setImage(normalImage, for: .highlighted)
+        button.addTarget(self, action:#selector(selectButtonClick), for:.touchUpInside)
+        return button
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B2006F80-8911-48D9-AB6E-9CC9F259F165</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>button only image</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>button only image</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

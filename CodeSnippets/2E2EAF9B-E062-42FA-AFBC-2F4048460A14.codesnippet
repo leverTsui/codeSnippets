@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ltgettersetter</string>
+	<string>ltimageview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//MARK: - getter &amp; setter</string>
+	<string>    private lazy var coverImageView: UIImageView = {
+        var imageView: UIImageView = UIImageView.init()
+        imageView.contentMode = .scaleAspectFit
+        imageView.backgroundColor = .hex("#F1F2F4")
+        return imageView
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>92C305E0-889A-49B8-9EFC-9D8F014522E5</string>
+	<string>2E2EAF9B-E062-42FA-AFBC-2F4048460A14</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>ltimageview</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>getterSetter</string>
+	<string>ltimageview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

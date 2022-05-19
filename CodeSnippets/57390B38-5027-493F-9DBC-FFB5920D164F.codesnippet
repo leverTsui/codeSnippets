@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ltbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private lazy var createButton: UIButton = {
+        var button = UIButton.init(type: .custom)
+        button.backgroundColor = .hex("#2254F4")
+        button.setTitle("开始创作", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        let image: UIImage? = UIImage.init(named: "video_edit_record_add")
+        button.setImage(image, for: .normal)
+        button.setImage(image, for: .selected)
+        button.setImage(image, for: .highlighted)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        button.layer.cornerRadius = 4;
+        button.layer.masksToBounds = true;
+        button.contentHorizontalAlignment = .center
+        button.contentVerticalAlignment = .center
+        button.imageEdgeInsets = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 5.0)
+        button.addTarget(self, action:#selector(createButtonClick), for:.touchUpInside)
+        return button
+    }()
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>57390B38-5027-493F-9DBC-FFB5920D164F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>custom button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
