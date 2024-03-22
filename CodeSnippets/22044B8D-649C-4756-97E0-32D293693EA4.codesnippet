@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ltlifecycle</string>
+	<string>ltupe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Life Cycle</string>
+	<string> upgrade 1.58.2 @xlh end */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>63CA3A23-39A4-41FF-BF14-CA34CF8DAB9C</string>
+	<string>22044B8D-649C-4756-97E0-32D293693EA4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>life cycle</string>
+	<string>ltupe</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

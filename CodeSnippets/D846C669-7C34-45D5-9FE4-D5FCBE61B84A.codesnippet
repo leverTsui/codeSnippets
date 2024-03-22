@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ltlifecycle</string>
+	<string>ltgself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Life Cycle</string>
+	<string> guard let self = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>63CA3A23-39A4-41FF-BF14-CA34CF8DAB9C</string>
+	<string>D846C669-7C34-45D5-9FE4-D5FCBE61B84A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>life cycle</string>
+	<string>guard self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

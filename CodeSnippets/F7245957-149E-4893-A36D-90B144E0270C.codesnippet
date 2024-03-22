@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    //MARK: - life cycle
+	<string>    // MARK: - life cycle
     
     override init(frame: CGRect) {
         super.init(frame: frame)
